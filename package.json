@@ -1,0 +1,12 @@
+{
+  "name": "dombie-str",
+  "version": "0.0.0",
+  "description": "render a dombie tree back into a string",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/node-dombie-str.git"
+  },
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT"
+}
