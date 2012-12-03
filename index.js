@@ -12,7 +12,10 @@ module.exports = function minime(dom, cb) {
     // tags that can selfclose
     var selfclose = {
         'link': true,
-        'hr': true
+        'hr': true,
+        'br': true,
+        'meta': true,
+        'img': true
     };
 
     function render(element) {
@@ -37,7 +40,7 @@ module.exports = function minime(dom, cb) {
                 });
             }
 
-            if (element.children || element.data) {
+            if (element.children.length > 0 || element.data) {
                 write('>');
 
                 if (element.data) {
