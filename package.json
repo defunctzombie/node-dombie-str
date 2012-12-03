@@ -1,6 +1,6 @@
 {
   "name": "dombie-str",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "render a dombie tree back into a string",
   "main": "index.js",
   "repository": {
